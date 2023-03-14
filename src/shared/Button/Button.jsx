@@ -5,4 +5,7 @@ const Button = ({ type = 'submit', children }) => {
 };
 
 export default Button;
-Button.PropTypes;
+Button.propTypes = {
+  type: PropTypes.string,
+  children: PropTypes.element,
+};
