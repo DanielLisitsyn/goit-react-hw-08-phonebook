@@ -8,7 +8,7 @@ import UserRoutes from 'UserRoutes';
 export const App = () => {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/goit-react-hw-08-phonebook">
         <Header />
         <UserRoutes />
       </BrowserRouter>
