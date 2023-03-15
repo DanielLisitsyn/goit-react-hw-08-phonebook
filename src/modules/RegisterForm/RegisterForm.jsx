@@ -1,11 +1,10 @@
 import TextField from '../../shared/TextField/TextField';
 import Button from '../../shared/Button/Button';
 import PropTypes from 'prop-types';
-
 import useForm from '../../shared/useForm';
-
 import initialState from './initialState';
 import fields from './fields';
+import css from './RegisterForm.module.css';
 
 const RegisterForm = ({ onSubmit }) => {
   const { state, handleChange, handleSubmit } = useForm({
@@ -16,7 +15,7 @@ const RegisterForm = ({ onSubmit }) => {
   const { name, email, password } = state;
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className={css.form} onSubmit={handleSubmit}>
       <TextField value={name} onChange={handleChange} {...fields.name} />
       <TextField value={email} onChange={handleChange} {...fields.email} />
       <TextField

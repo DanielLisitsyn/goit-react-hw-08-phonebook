@@ -1,0 +1,29 @@
+.navLink {
+  height: 23px;
+  width: 100px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgb(229, 237, 245);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.navLink:not(:last-child) {
+  margin-right: 15px;
+}
+
+.navLink:global(.active) {
+  background-color: rgb(65, 138, 235);
+  color: aliceblue;
+}
+
+.navLink:hover {
+  background-color: rgb(65, 138, 235);
+  color: aliceblue;
+}
+
+.wrapper {
+  display: flex;
+}

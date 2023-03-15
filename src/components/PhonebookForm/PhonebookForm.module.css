@@ -25,6 +25,7 @@
   border-radius: 2px;
   border: none;
   background-color: rgb(229, 237, 245);
+  cursor: pointer;
 }
 
 .addContact:hover {

@@ -1,10 +1,18 @@
 import { NavLink } from 'react-router-dom';
+import css from './HeaderAuth.module.css';
 
 const HeaderAuth = () => {
   return (
-    <div>
-      <NavLink to="/register">Register</NavLink>|
-      <NavLink to="/login">Login</NavLink>
+    <div className={css.wrapper}>
+      <NavLink className={css.navLink} to="/">
+        Home
+      </NavLink>
+      <NavLink className={css.navLink} to="/register">
+        Register
+      </NavLink>
+      <NavLink className={css.navLink} to="/login">
+        Login
+      </NavLink>
     </div>
   );
 };

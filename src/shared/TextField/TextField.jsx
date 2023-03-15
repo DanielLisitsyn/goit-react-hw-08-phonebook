@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
+import css from './TextField.module.css';
 
 const TextField = ({ label, ...props }) => {
   return (
     <div>
-      <label>{label}</label>
-      <input {...props} />
+      <label className={css.label}>{label}</label>
+      <input className={css.input} {...props} />
     </div>
   );
 };
