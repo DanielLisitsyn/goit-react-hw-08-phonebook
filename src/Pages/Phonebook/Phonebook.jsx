@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 
 import PhonebookBlock from 'components/PhonebookBlock/PhonebookBlock';
-import PhonebookList from '../PhonebookList/PhonebookList';
+import PhonebookList from '../../components/PhonebookList/PhonebookList';
 import PhonebookForm from 'components/PhonebookForm/PhonebookForm';
 import css from './Phonebook-module.css';
 

@@ -5,7 +5,7 @@ import PublicRoute from 'modules/PublicRoute/PublicRoute';
 
 const RegisterPage = lazy(() => import('./Pages/RegisterPage/RegisterPage'));
 const LoginPage = lazy(() => import('./Pages/LoginPage/LoginPage'));
-const Phonebook = lazy(() => import('./components/Phonebook/Phonebook'));
+const Phonebook = lazy(() => import('./Pages/Phonebook/Phonebook'));
 const HomePage = lazy(() => import('./Pages/HomePage/HomePage'));
 const NotFoundPage = lazy(() => import('./Pages/NotFoundPage/NotFoundPage'));
 
