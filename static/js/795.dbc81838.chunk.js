@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[795],{795:function(e,t,a){a.r(t);var c=a(184);t.default=function(){return(0,c.jsxs)("div",{children:[(0,c.jsx)("h2",{children:"Welcome to your Phonebook"}),(0,c.jsx)("img",{src:"https://freight.cargo.site/w/500/i/23d7c83958bb063a9aa2a706e40a1ce965c13048245534a18556692b2820063c/Dino_Skate_Thumb.gif",alt:"",width:335})]})}}}]);
+//# sourceMappingURL=795.dbc81838.chunk.js.map
